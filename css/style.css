@@ -1,0 +1,80 @@
+/* Prime Build Estimating */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#f5f7fa;
+color:#333;
+line-height:1.6;
+}
+
+header{
+background:#0B3D91;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+header h2{
+color:#fff;
+font-size:28px;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
+transition:.3s;
+}
+
+nav a:hover{
+color:#ff7a00;
+}
+
+.hero{
+height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+color:#fff;
+background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),url("https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+background-position:center;
+}
+
+.hero h1{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+background:#ff7a00;
+color:#fff;
+padding:15px 35px;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+background:#e96a00;
+}
